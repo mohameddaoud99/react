@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-h1 {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-h1 {
+    animation: App-logo-spin infinite 3s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-h1-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+  
+}
+body{
+  background-image:"https://uk.images.search.yahoo.com/yhs/search;_ylt=AwrJO1VBTQhfLboA2AJ3Bwx.;_ylu=X3oDMTB0ZTgxN3Q0BGNvbG8DaXIyBHBvcwMxBHZ0aWQDBHNlYwNwaXZz?p=background+color+website&type=YHS_ROS_57104&param1=mT_B2j3C74WAWrhEPJN8R7f15JuQvAZOrYjrtpzRVROMyJsTkDZj5ogh9GpYt3GImIDxhuBkhH0uMLP62hMFn1-ouQSi22-_Hm1eQUjnkMdYyImgZJaS5_oHqGtS51StMAzRFL0omCzKr5TF9l32CEUM69J3rpOH5MFbpZ-aNz9jD6HUuyS5iTIvilUFQfiF3PwQHlGZ5YFMu-6EZoai1en22NpCsxqDVcflQtqvc_YLTyWwJC8e96EwdD9CPwk2mcRC0xXNJriu1isJy33aF7zdGR_Sbbyf5ZVZftykpBJ6k2NzvIhNJqyaut5tJjzKfPRt1QQsRCZq&hsimp=yhs-newtab&hspart=Lkry&ei=UTF-8&fr=yhs-Lkry-newtab#id=43&iurl=https%3A%2F%2Fi.ytimg.com%2Fvi%2F-MKapbz0GIo%2Fmaxresdefault.jpg&action=click";
+}
+
+.container{
+margin-top:10px;
+}
+.back{
+  background-color : #0074C7 ;
+}
+.jumbotron{
+  display: flex;
+  background-color: #E3D219!important;
+
+}
+.h{
+  animation-timing-function: 3s;
+}
+
+
+
